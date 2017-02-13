@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <!--<script src="Scripts/app/directive.js"></script>-->
+</head>
+<body>
+
+    <!--<div ng-app="myApp" w3-test-directive></div>-->
+    <!--<div ng-app="" ng-init="quantity=6;cost=7">
+        <input type="text" ng-model="quantity" />
+        <input type="text" ng-model="cost" />
+        <p>{{quantity*cost}}</p>
+    </div>-->
+    <div ng-app="" ng-init="names=[{name:'Thinh',country:'Viet Nam'},
+         {name:'Tai',country:'Viet Nam'},
+         {name:'Tuan',country:'Viet Nam'}
+         ]">
+        <p ng-repeat="x in names">
+            {{x.name+""+x.country}}
+        </p>
+    </div>
+</body>
+</html>

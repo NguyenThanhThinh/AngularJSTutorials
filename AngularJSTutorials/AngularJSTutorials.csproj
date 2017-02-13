@@ -66,7 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ex3.html" />
+    <Content Include="Ex4.html" />
+    <Content Include="Ex5.html" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,9 +82,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ex1.html" />
+    <Content Include="Ex2.html" />
     <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\app\directive.js" />
+    <Content Include="Scripts\app\moduls.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
